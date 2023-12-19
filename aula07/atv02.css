@@ -1,0 +1,218 @@
+body{
+ background-color: aqua;
+}
+
+.box{
+    background-color: black;
+    height: 600px;
+    display: grid;
+    grid-template-areas: 'top top top top'
+                         'ce cp cp cd'
+                         'ce cp cp cd'
+                         'rp rp rp rp';
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 2px;
+}
+
+.ce{
+    background-color: blue;
+    grid-area: ce;
+  }
+
+.cp {
+    background-color: blue;
+    grid-area: cp;
+}
+
+.cd {
+    background-color: blue;
+    grid-area: cd;
+}
+
+.rp{
+    background-color: blue  ;
+    grid-area: rp;
+}
+
+.top{
+    display: grid;
+    grid-template-areas: 'pa1 pa2 pa3 pa4';
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    gap: 2px;
+
+    background-color: red;
+    grid-area: top;
+  }
+
+.top p{
+    background-color: brown;
+}
+
+.pa1{
+    background-color: white;
+grid-area: pa1;
+}
+
+.pa2{
+    background-color: white;
+grid-area: pa2;
+}
+
+.pa3{
+    background-color: white;
+grid-area: pa3;
+}
+
+.pa4{
+    background-color: white;
+grid-area: pa4;
+}
+
+.cd{
+    display: grid;
+    grid-template-areas: 'pa1 pa2'
+                         'pa3 pa4'
+                         'pa5 pa6'
+                         'pa7 pa8';
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 2px;
+
+    background-color: green;
+    grid-area: cd;
+}
+
+p{
+    background-color: red;
+}
+
+.cd .pa1 p{
+    background-color: blueviolet;
+}
+
+.cd .pa6 p{
+    background-color: brown;
+}
+
+.cd .pa6 #para{
+    background-color: blue;
+}
+
+.cd .pa1{
+    background-color: white;
+    grid-area: pa1;
+}
+
+.cd .pa2{
+    background-color: white;
+    grid-area: pa2;
+}
+
+.cd .pa3{
+    background-color: white;
+    grid-area: pa3;
+}
+
+.cd .pa4{
+    background-color: white;
+    grid-area: pa4;
+}
+
+.cd .pa5{
+    background-color: white;
+    grid-area: pa5;
+}
+
+.cd .pa6{
+    background-color: white;
+    grid-area: pa6;
+}
+
+.cd .pa7{
+    background-color: white;
+    grid-area: pa7;
+}
+
+.cd .pa8{
+    background-color: white;
+    grid-area: pa8;
+}
+
+/*
+.n1{
+   background-color: blue;
+   grid-area:n1;
+}
+
+.n2{
+    background-color: blue;
+    grid-area: n2;
+}
+
+.n3{
+    background-color: blue;
+    grid-area: n3;
+}
+
+.n4{
+    background-color: blue;
+    grid-area: n4;
+}
+
+.n5{
+    background-color: blue;
+    grid-area: n5;
+}
+
+.n6{
+    background-color: blue;
+    grid-area: n6;
+}
+
+.n7{
+    background-color: blue;
+    grid-area: n7;
+}
+
+.n8{
+    background-color: white;
+    grid-area: n8;
+}
+
+.n9{
+    background-color: blue;
+    grid-area: n9;
+}
+
+.n10{
+    background-color: blue;
+    grid-area: n10;
+}
+
+.n11{
+    background-color: blue;
+    grid-area: n11;
+}
+
+.n12{
+    background-color: blue;
+    grid-area: n12;
+}
+
+.n13{
+    background-color: blue;
+    grid-area: n13;
+}
+
+.n14{
+    background-color: blue;
+    grid-area: n14;
+}
+
+.n15{
+    background-color: blue;
+    grid-area: n15;
+}
+*/

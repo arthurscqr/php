@@ -1,0 +1,57 @@
+body{
+    background-color:rgb(245, 0, 253);
+    height: 600px;
+}
+
+.box{
+    height: 700px;
+    display: grid;
+    grid-template-areas: "topo topo topo"
+                          "mL cont mR"
+                          "rod rod rod";
+    grid-template-rows: 120px 1fr 90px;
+    grid-template-columns: 120px 1fr 120px;
+ 
+}
+
+.titulo{
+    background-color:red;
+    grid-area: topo;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    
+}
+
+.img1{
+    grid-area: topo;
+    height: 120px;
+    padding-left: 10px;
+}
+
+.img2{
+    grid-area: topo;
+    height: 120px;
+    padding-left: 1380px;
+}
+
+.menuE{
+    background-color: rgb(229, 255, 0);
+    grid-area: mL;
+    
+}
+
+.conteudo{
+    background-color: blue;
+    grid-area: cont;
+}
+
+.menuR{
+    background-color: green;
+    grid-area: mR;
+}
+
+.rodape{
+    background-color: rgb(0, 238, 255);
+    grid-area: rod;
+}
